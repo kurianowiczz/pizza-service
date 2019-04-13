@@ -1,4 +1,4 @@
-package by.bntu.fitr.poisit.model.service;
+package by.bntu.fitr.poisit.model.util;
 
 import by.bntu.fitr.poisit.model.collections.Pizza;
 import by.bntu.fitr.poisit.model.entity.Product;
@@ -6,7 +6,7 @@ import by.bntu.fitr.poisit.model.entity.Product;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class PizzaService {
+public class PizzaCreator {
 
     public static ArrayList<String> journal;
 

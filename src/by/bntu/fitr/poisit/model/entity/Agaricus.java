@@ -11,6 +11,12 @@ public class Agaricus extends Product {
     }
 
     public Agaricus(int fat, int price, int size) {
+        if(fat >= 0){
+            this.calories = fat;
+        }else{
+            this.calories = 1;
+        }
+        //TODO
         this.calories = fat;
         this.price = price;
         this.size = size;

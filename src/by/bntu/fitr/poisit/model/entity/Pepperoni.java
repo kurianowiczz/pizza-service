@@ -10,6 +10,7 @@ public class Pepperoni extends Product {
     }
 
     public Pepperoni(int fat, int price, String sort) {
+        //TODO
         this.calories = 5 * fat;
         this.price = price;
         this.sort = sort;

@@ -10,14 +10,17 @@ public class Pizza {
     private ArrayList<Product> elements;
 
     public Pizza() {
+
         this.elements = new ArrayList<>();
     }
 
     public Pizza(Pizza pizza){
+
         this.elements = new ArrayList<>(pizza.getElements());
     }
 
     public ArrayList<Product> getElements() {
+
         return elements;
     }
 
@@ -34,14 +37,12 @@ public class Pizza {
         return result;
     }
 
-    public ArrayList<Product> add(Product product){
+    public void add(Product product){
         this.elements.add(product);
-        return this.elements;
     }
 
-    public ArrayList<Product> remove(Product product){
-        this.elements.remove(product);
-        return this.elements;
+    public boolean remove(Product product){
+        return this.elements.remove(product);
     }
 
     @Override
