@@ -10,6 +10,14 @@ public enum MazzarelloKind {
     }
 
     public String getType(){
+
         return type;
+    }
+
+    @Override
+    public String toString() {
+        return "MazzarelloKind{" +
+                "type='" + type + '\'' +
+                '}';
     }
 }

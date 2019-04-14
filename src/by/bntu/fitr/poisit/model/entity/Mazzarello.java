@@ -2,30 +2,36 @@ package by.bntu.fitr.poisit.model.entity;
 
 public class Mazzarello extends Product {
 
-    private String kind; // or MazzarelloKind kind
+    private MazzarelloKind kind;
 
     public Mazzarello() {
-        this.kind = MazzarelloKind.DEFAULT.getType();
+        this.kind = kind;
         this.price = 9;
         this.calories = 5;
     }
 
     public Mazzarello(int fat, int price, MazzarelloKind kind) {
-        //TODO
-        this.calories = 3 * fat;
-        this.price = price;
-        this.kind = kind.getType();
+
+        if(fat >= 0){
+            this.calories = 3 * fat;
+        }else{
+            this.calories = 1;
+        }
+        if(price >= 0){
+            this.price = price;
+        } else {
+            this.price = 1;
+        }
     }
 
-    public String getKind() {
+    public MazzarelloKind getKind() {
         return this.kind;
     }
 
-    public void setKind(String kind) {
+    public void setKind(MazzarelloKind kind) {
         this.kind = kind;
     }
 
-    @Override
     public String toString() {
         return "Mazzarello [Kind: " + this.kind + ", Calories: " + this.calories + "]";
     }

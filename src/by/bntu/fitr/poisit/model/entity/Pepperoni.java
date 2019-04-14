@@ -2,26 +2,33 @@ package by.bntu.fitr.poisit.model.entity;
 
 public class Pepperoni extends Product {
 
-    private String sort;
+    private PepperoniSort sort;
 
     public Pepperoni() {
-        this.sort = "Default";
+        this.sort = sort;
         this.calories = 5;
     }
 
-    public Pepperoni(int fat, int price, String sort) {
-        //TODO
-        this.calories = 5 * fat;
-        this.price = price;
-        this.sort = sort;
+    public Pepperoni(int fat, int price, PepperoniSort sort) {
+        //TODO ? whis sort
+        if(fat >= 0){
+            this.calories = fat * 5;
+        }else{
+            this.calories = 1;
+        }
+
+        if(price >= 0){
+            this.price = price;
+        } else {
+            this.price = 1;
+        }
     }
 
-
-    public String getSort() {
+    public PepperoniSort getSort() {
         return sort;
     }
 
-    public void setSort(String sort) {
+    public void setSort(PepperoniSort sort) {
         this.sort = sort;
     }
 
