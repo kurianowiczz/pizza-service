@@ -2,11 +2,11 @@ package by.bntu.fitr.poisit.model.entity;
 
 import by.bntu.fitr.poisit.model.util.Client;
 
-public class Table {
+public class Restaurant {
     private boolean reserve;
     private Client client;
 
-    public Table() {
+    public Restaurant() {
         this.client = null;
         this.reserve = false;
     }

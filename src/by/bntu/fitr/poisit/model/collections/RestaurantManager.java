@@ -4,7 +4,7 @@ import by.bntu.fitr.poisit.model.entity.Table;
 import by.bntu.fitr.poisit.model.util.Client;
 
 public class Restaurant {
-
+    static final int DEFAULT_SIZE = 10;
     private Table[][] tables;
 
     public Restaurant(int m, int n) {
@@ -16,7 +16,7 @@ public class Restaurant {
                 }
             }
         }catch (Exception ex){
-            this.tables = new Table[10][10];
+            this.tables = new Table[DEFAULT_SIZE][DEFAULT_SIZE];
             for(int i = 0; i < tables.length; i++){
                 for(int j = 0; j < tables[i].length; j++){
                     tables[i][j] = new Table();
@@ -28,7 +28,7 @@ public class Restaurant {
 
     public Restaurant() {
 
-        this.tables = new Table[10][10];
+        this.tables = new Table[DEFAULT_SIZE][DEFAULT_SIZE];
         for(int i = 0; i < tables.length; i++){
             for(int j = 0; j < tables[i].length; j++){
                 tables[i][j] = new Table();
