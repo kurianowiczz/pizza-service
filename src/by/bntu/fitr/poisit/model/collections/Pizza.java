@@ -4,22 +4,30 @@ import by.bntu.fitr.poisit.model.entity.Product;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.Objects;
 
 public class Pizza {
 
-    private ArrayList<Product> elements;
+    private List<Product> elements;
 
     public Pizza() {
 
         this.elements = new ArrayList<>();
     }
 
+    public Pizza(List<Product> elements) {
+
+        this.elements = elements;
+    }
+
+
     public Pizza(Pizza pizza){
 
         this.elements = new ArrayList<>(pizza.getElements());
     }
 
-    public ArrayList<Product> getElements() {
+    public List<Product> getElements() {
 
         return elements;
     }
@@ -46,6 +54,19 @@ public class Pizza {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Pizza pizza = (Pizza) o;
+        return Objects.equals(elements, pizza.elements);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(elements);
+    }
+
+    @Override
     public String toString() {
         StringBuilder result = new StringBuilder("\n\nPizza:\n");
         for (Product one : this.elements) {
@@ -53,5 +74,4 @@ public class Pizza {
         }
         return result.toString();
     }
-
 }

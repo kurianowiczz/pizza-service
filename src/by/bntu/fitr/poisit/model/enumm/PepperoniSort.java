@@ -1,4 +1,4 @@
-package by.bntu.fitr.poisit.model.entity;
+package by.bntu.fitr.poisit.model.enumm;
 
 public enum PepperoniSort {
     BEEF("beef"),  CHICKEN("chicken"), PORK("pork");
@@ -13,10 +13,4 @@ public enum PepperoniSort {
         return sort;
     }
 
-    @Override
-    public String toString() {
-        return "PepperoniSort{" +
-                "sort='" + sort + '\'' +
-                '}';
-    }
 }

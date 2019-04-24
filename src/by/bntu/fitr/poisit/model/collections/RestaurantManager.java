@@ -1,37 +1,39 @@
 package by.bntu.fitr.poisit.model.collections;
 
-import by.bntu.fitr.poisit.model.entity.Table;
+import by.bntu.fitr.poisit.model.entity.Restaurant;
 import by.bntu.fitr.poisit.model.util.Client;
 
-public class Restaurant {
-    static final int DEFAULT_SIZE = 10;
-    private Table[][] tables;
+import java.util.Arrays;
 
-    public Restaurant(int m, int n) {
+public class RestaurantManager {
+    static final int DEFAULT_SIZE = 10;
+    private Restaurant[][] tables;
+
+    public RestaurantManager(int m, int n) {
         try {
-            this.tables = new Table[m][n];
+            this.tables = new Restaurant[m][n];
             for (int i = 0; i < tables.length; i++) {
                 for (int j = 0; j < tables[i].length; j++) {
-                    tables[i][j] = new Table();
+                    tables[i][j] = new Restaurant();
                 }
             }
         }catch (Exception ex){
-            this.tables = new Table[DEFAULT_SIZE][DEFAULT_SIZE];
+            this.tables = new Restaurant[DEFAULT_SIZE][DEFAULT_SIZE];
             for(int i = 0; i < tables.length; i++){
                 for(int j = 0; j < tables[i].length; j++){
-                    tables[i][j] = new Table();
+                    tables[i][j] = new Restaurant();
                 }
             }
         }
 
     }
 
-    public Restaurant() {
+    public RestaurantManager() {
 
-        this.tables = new Table[DEFAULT_SIZE][DEFAULT_SIZE];
+        this.tables = new Restaurant[DEFAULT_SIZE][DEFAULT_SIZE];
         for(int i = 0; i < tables.length; i++){
             for(int j = 0; j < tables[i].length; j++){
-                tables[i][j] = new Table();
+                tables[i][j] = new Restaurant();
             }
         }
     }
@@ -72,4 +74,16 @@ public class Restaurant {
         return result;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        RestaurantManager that = (RestaurantManager) o;
+        return Arrays.equals(tables, that.tables);
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(tables);
+    }
 }

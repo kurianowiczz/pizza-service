@@ -1,38 +1,48 @@
 package by.bntu.fitr.poisit.model.entity;
 
+import by.bntu.fitr.poisit.model.enumm.MazzarelloKind;
+
+import java.util.Objects;
+
 public class Mazzarello extends Product {
 
     private MazzarelloKind kind;
 
     public Mazzarello() {
+        super(3, 7);
+        this.kind = MazzarelloKind.DEFAULT;
+    }
+
+    public Mazzarello(int calories, int price, MazzarelloKind kind) {
+        super(calories, price);
         this.kind = kind;
-        this.price = 9;
-        this.calories = 5;
-    }
-
-    public Mazzarello(int fat, int price, MazzarelloKind kind) {
-
-        if(fat >= 0){
-            this.calories = 3 * fat;
-        }else{
-            this.calories = 1;
-        }
-        if(price >= 0){
-            this.price = price;
-        } else {
-            this.price = 1;
-        }
-    }
-
-    public MazzarelloKind getKind() {
-        return this.kind;
     }
 
     public void setKind(MazzarelloKind kind) {
         this.kind = kind;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        Mazzarello that = (Mazzarello) o;
+        return kind == that.kind;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), kind);
+    }
+
+    @Override
     public String toString() {
-        return "Mazzarello [Kind: " + this.kind + ", Calories: " + this.calories + "]";
+        return "Mazzarello [" +
+                "kind = " + kind +
+                ", calories = " + calories +
+                ", price = " + price +
+                ']';
     }
 }
+

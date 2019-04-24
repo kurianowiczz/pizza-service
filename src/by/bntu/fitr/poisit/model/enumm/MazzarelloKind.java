@@ -1,4 +1,4 @@
-package by.bntu.fitr.poisit.model.entity;
+package by.bntu.fitr.poisit.model.enumm;
 
 public enum MazzarelloKind {
     DEFAULT("default"), SPICY("spicy"), TREECE("treece");
@@ -14,10 +14,4 @@ public enum MazzarelloKind {
         return type;
     }
 
-    @Override
-    public String toString() {
-        return "MazzarelloKind{" +
-                "type='" + type + '\'' +
-                '}';
-    }
 }

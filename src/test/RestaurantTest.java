@@ -1,4 +1,4 @@
-package by.bntu.fitr.poisit.test;
+package test;
 
 import by.bntu.fitr.poisit.model.collections.RestaurantManager;
 import by.bntu.fitr.poisit.model.util.Client;

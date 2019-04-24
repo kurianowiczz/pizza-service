@@ -11,6 +11,11 @@ public class Restaurant {
         this.reserve = false;
     }
 
+    public Restaurant(boolean reserve, Client client) {
+        this.reserve = reserve;
+        this.client = client;
+    }
+
     public void reserve(Client c){
         this.client = c;
         this.reserve = true;
@@ -29,4 +34,13 @@ public class Restaurant {
     public Client getClient() {
         return client;
     }
+
+    @Override
+    public String toString() {
+        return "Restaurant{" +
+                "reserve = " + reserve +
+                ", client = " + client +
+                '}';
+    }
+
 }
