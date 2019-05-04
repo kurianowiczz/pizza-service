@@ -17,22 +17,21 @@ public class RestaurantManager {
                     tables[i][j] = new Restaurant();
                 }
             }
-        }catch (Exception ex){
+        } catch (Exception ex) {
             this.tables = new Restaurant[DEFAULT_SIZE][DEFAULT_SIZE];
-            for(int i = 0; i < tables.length; i++){
-                for(int j = 0; j < tables[i].length; j++){
+            for (int i = 0; i < tables.length; i++) {
+                for (int j = 0; j < tables[i].length; j++) {
                     tables[i][j] = new Restaurant();
                 }
             }
         }
-
     }
 
     public RestaurantManager() {
 
         this.tables = new Restaurant[DEFAULT_SIZE][DEFAULT_SIZE];
-        for(int i = 0; i < tables.length; i++){
-            for(int j = 0; j < tables[i].length; j++){
+        for (int i = 0; i < tables.length; i++) {
+            for (int j = 0; j < tables[i].length; j++) {
                 tables[i][j] = new Restaurant();
             }
         }
@@ -40,9 +39,9 @@ public class RestaurantManager {
 
     public int getFreeTables() {
         int count = 0;
-        for(int i = 0; i < tables.length; i++){
-            for(int j = 0; j < tables[i].length; j++) {
-                if(!tables[i][j].isReserved()){
+        for (int i = 0; i < tables.length; i++) {
+            for (int j = 0; j < tables[i].length; j++) {
+                if (!tables[i][j].isReserved()) {
                     count++;
                 }
             }
@@ -56,23 +55,22 @@ public class RestaurantManager {
         } else if (c == null) {
             throw new NullPointerException();
         } else {
-            if(!tables[i][j].isReserved()){
+            if (!tables[i][j].isReserved()) {
                 tables[i][j].reserve(c);
                 return true;
             }
             return false;
-
-    }
+        }
     }
 
     @Override
     public String toString() {
         String result = "";
-        for(int i = 0; i < tables.length; i++){
-            for(int j = 0; j < tables[i].length; j++){
-                if(tables[i][j].isReserved()){
-                   result += " [ + ] ";
-                }else {
+        for (int i = 0; i < tables.length; i++) {
+            for (int j = 0; j < tables[i].length; j++) {
+                if (tables[i][j].isReserved()) {
+                    result += " [ + ] ";
+                } else {
                     result += " [   ] ";
                 }
             }

@@ -22,7 +22,7 @@ public class Pizza {
     }
 
 
-    public Pizza(Pizza pizza){
+    public Pizza(Pizza pizza) {
 
         this.elements = new ArrayList<>(pizza.getElements());
     }
@@ -32,7 +32,7 @@ public class Pizza {
         return elements;
     }
 
-    public Pizza(Product ...listOfProducts) {
+    public Pizza(Product... listOfProducts) {
         this.elements = new ArrayList<>();
         this.elements.addAll(Arrays.asList(listOfProducts)); //mas -> arrL
     }
@@ -45,11 +45,11 @@ public class Pizza {
         return result;
     }
 
-    public void add(Product product){
+    public void add(Product product) {
         this.elements.add(product);
     }
 
-    public boolean remove(Product product){
+    public boolean remove(Product product) {
         return this.elements.remove(product);
     }
 

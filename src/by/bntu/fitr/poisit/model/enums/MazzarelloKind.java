@@ -9,7 +9,7 @@ public enum MazzarelloKind {
         this.type = type;
     }
 
-    public String getType(){
+    public String getType() {
 
         return type;
     }

@@ -9,7 +9,7 @@ public enum AgaricusSize {
         this.size = size;
     }
 
-    public String getSize(){
+    public String getSize() {
         return size;
     }
 }

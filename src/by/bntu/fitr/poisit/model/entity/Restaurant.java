@@ -16,12 +16,12 @@ public class Restaurant {
         this.client = client;
     }
 
-    public void reserve(Client c){
+    public void reserve(Client c) {
         this.client = c;
         this.reserve = true;
     }
 
-    public void cancelReservation(){
+    public void cancelReservation() {
         this.client = null;
         this.reserve = false;
     }

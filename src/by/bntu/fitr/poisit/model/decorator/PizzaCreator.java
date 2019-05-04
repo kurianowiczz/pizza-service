@@ -5,7 +5,7 @@ import by.bntu.fitr.poisit.model.collections.Pizza;
 public class PizzaCreator implements Creatable {
 
     @Override
-    public Pizza create(){
+    public Pizza create() {
         return new Pizza();
     }
 

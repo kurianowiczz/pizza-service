@@ -11,7 +11,7 @@ public class AgaricusPizzaCreator extends PizzaCreator {
     }
 
     @Override
-    public Pizza create(){
+    public Pizza create() {
         Pizza pizza = component.create();
         pizza.add(new Agaricus());
         return pizza;

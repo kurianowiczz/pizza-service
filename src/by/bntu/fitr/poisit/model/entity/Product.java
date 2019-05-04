@@ -12,13 +12,13 @@ public abstract class Product {
     }
 
     public Product(int calories, int price) {
-        if(calories >= 0){
+        if (calories >= 0) {
             this.calories = calories * 5;
-        }else{
+        } else {
             this.calories = 1;
         }
 
-        if(price >= 0){
+        if (price >= 0) {
             this.price = price;
         } else {
             this.price = 1;
