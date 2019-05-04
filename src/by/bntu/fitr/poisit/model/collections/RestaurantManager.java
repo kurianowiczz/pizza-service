@@ -50,12 +50,19 @@ public class RestaurantManager {
         return count;
     }
 
-    public boolean reserve(int i, int j, Client c){
-        if(!tables[i][j].isReserved()){
-            tables[i][j].reserve(c);
-            return true;
-        }
-        return false;
+    public boolean reserve(int i, int j, Client c) throws Exception {
+        if (i < 0 || j < 0) {
+            throw new Exception();
+        } else if (c == null) {
+            throw new NullPointerException();
+        } else {
+            if(!tables[i][j].isReserved()){
+                tables[i][j].reserve(c);
+                return true;
+            }
+            return false;
+
+    }
     }
 
     @Override

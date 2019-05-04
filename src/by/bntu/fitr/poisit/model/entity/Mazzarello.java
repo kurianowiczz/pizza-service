@@ -1,6 +1,6 @@
 package by.bntu.fitr.poisit.model.entity;
 
-import by.bntu.fitr.poisit.model.enumm.MazzarelloKind;
+import by.bntu.fitr.poisit.model.enums.MazzarelloKind;
 
 import java.util.Objects;
 

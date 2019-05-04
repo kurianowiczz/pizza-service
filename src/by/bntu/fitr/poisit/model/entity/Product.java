@@ -2,13 +2,7 @@ package by.bntu.fitr.poisit.model.entity;
 
 import java.util.Objects;
 
-/*
- * Abstract high-level class
- *   - made abstract for perspective editions
- *
- *   TODO: add some more abstract realization
- */
-public class Product {
+public abstract class Product {
     protected int calories;
     protected int price;
 

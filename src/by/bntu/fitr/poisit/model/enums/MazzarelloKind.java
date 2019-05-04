@@ -1,4 +1,4 @@
-package by.bntu.fitr.poisit.model.enumm;
+package by.bntu.fitr.poisit.model.enums;
 
 public enum MazzarelloKind {
     DEFAULT("default"), SPICY("spicy"), TREECE("treece");

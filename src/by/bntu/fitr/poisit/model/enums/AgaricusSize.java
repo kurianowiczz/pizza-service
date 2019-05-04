@@ -1,4 +1,4 @@
-package by.bntu.fitr.poisit.model.enumm;
+package by.bntu.fitr.poisit.model.enums;
 
 public enum AgaricusSize {
     FRIED("fried"), INSAUSE("inSause"), BOILED("boiled");
@@ -10,7 +10,6 @@ public enum AgaricusSize {
     }
 
     public String getSize(){
-
         return size;
     }
 }

@@ -1,6 +1,6 @@
 package by.bntu.fitr.poisit.model.entity;
 
-import by.bntu.fitr.poisit.model.enumm.AgaricusSize;
+import by.bntu.fitr.poisit.model.enums.AgaricusSize;
 
 import java.util.Objects;
 

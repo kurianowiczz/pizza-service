@@ -1,6 +1,6 @@
 package by.bntu.fitr.poisit.model.entity;
 
-import by.bntu.fitr.poisit.model.enumm.PepperoniSort;
+import by.bntu.fitr.poisit.model.enums.PepperoniSort;
 
 import java.util.Objects;
 
