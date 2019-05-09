@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985fc2bc-d698-4994-9fb3-eb69bd8474c4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Reservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Reserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/VipReserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/VipTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/RestaurantManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/RestaurantManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/AgaricusPizzaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/AgaricusPizzaCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/MazzarelloPizzaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/MazzarelloPizzaCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/PepperoniPizzaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/PepperoniPizzaCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/PizzaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/PizzaCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pizza_lab10/by/bntu/fitr/poisit/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pizza_lab10/by/bntu/fitr/poisit/controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pizza_lab10/by/bntu/fitr/poisit/log/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pizza_lab10/by/bntu/fitr/poisit/model/collections/RestaurantManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pizza_lab10/by/bntu/fitr/poisit/model/entity/Restaurant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pizza_lab10/by/bntu/fitr/poisit/model/collections/RestaurantManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/log/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/RestaurantManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/Creatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/Creatable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/by/bntu/fitr/poisit/model/collections/RestaurantManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bntu/fitr/poisit/model/collections/RestaurantTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,42 +33,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/controller/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="281">
+              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1557002036118" expanded="true" signature="802:1485" ph="..." />
+                <marker date="1557069405692" expanded="true" signature="908:1644" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/log/log4j.properties">
+        <entry file="file://$PROJECT_DIR$/test/by/bntu/fitr/poisit/model/collections/RestaurantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/Pizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/AgaricusPizzaCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" selection-end-line="19" />
+            <state relative-caret-position="493">
+              <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,17 +61,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/Creatable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-end-line="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/MazzarelloPizzaCreator.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="264">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+              <folding>
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Restaurant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Reservable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,22 +115,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/PepperoniPizzaCreator.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Reserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/PizzaCreator.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/VipReserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,21 +160,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/mcnw/model/entity/Mazzarello.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/mcnw/model/entity/Pepperoni.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/mcnw/model/entity/Agaricus.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/mcnw/view/Console.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/mcnw/model/service/PizzaService.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/mcnw/model/entity/Product.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/mcnw/model/util/Client.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/mcnw/model/collections/Pizza.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/mcnw/controller/Main.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/Table.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/util/ClientTest.java" />
         <option value="$PROJECT_DIR$/src/test/ClientTest.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/service/PizzaCreator.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/util/PizzaCreator.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Table.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/MazzarelloKind.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/PepperoniSort.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/log4j.properties" />
@@ -147,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/test/RestaurantTest.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/Restaurant.java" />
         <option value="$PROJECT_DIR$/src/log/log4j2.properties" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Restaurant.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enumm/MazzarelloKind.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enumm/PepperoniSort.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Mazzarello.java" />
@@ -159,38 +184,49 @@
         <option value="$PROJECT_DIR$/test/RestaurantTest.java" />
         <option value="$PROJECT_DIR$/src/log/log4j.properties" />
         <option value="$PROJECT_DIR$/out/log4j.xml" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Product.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/Order.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/CreatableDecorator.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/PepperoniPizzaCreator.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/Creatable.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enumm/AgaricusSize.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enums/AgaricusSize.java" />
-        <option value="$PROJECT_DIR$/test/by/bntu/fitr/poisit/model/collections/RestaurantManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/controller/Main.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/log/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/RestaurantManager.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/Pizza.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/AgaricusPizzaCreator.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/MazzarelloPizzaCreator.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/PepperoniPizzaCreator.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/PizzaCreator.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Product.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enums/AgaricusSize.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enums/MazzarelloKind.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enums/PepperoniSort.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/log/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/VipTable.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/util/Client.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/Creatable.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Reserver.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Reservable.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Table.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/VipReserver.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/controller/Main.java" />
+        <option value="$PROJECT_DIR$/test/by/bntu/fitr/poisit/model/collections/RestaurantManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/RestaurantManager.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="784" />
-    <option name="height" value="1352" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,13 +257,6 @@
               <item name="pizza-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="poisit" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pizza-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pizza-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="poisit" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,6 +266,15 @@
               <item name="poisit" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pizza-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pizza-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="poisit" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pizza-service" type="b2602c69:ProjectViewProjectNode" />
@@ -273,13 +311,6 @@
             <path>
               <item name="pizza-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="pizza-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="poisit" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pizza-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pizza-service" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,6 +327,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +344,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../apache-log4j-2.11.2-bin/log4j-web-2.11.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../СуперВажнаяИнформацияНаЧетвертыйСеместр/Ооп/ooplab8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -332,11 +365,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\STUDY\FITR_2\JAVA\JavaProjects\pizza_lab10\pizza-service\src" />
       <recent name="E:\STUDY\FITR_2\JAVA\JavaProjects\pizza_lab10\pizza-service" />
       <recent name="E:\STUDY\FITR_2\JAVA\JavaProjects\pizza_lab10\pizza-service\src\log" />
       <recent name="E:\STUDY\FITR_2\JAVA\JavaProjects\pizza_lab10\pizza-service\out" />
       <recent name="E:\STUDY\FITR_2\JAVA\JavaProjects\pizza_lab10\pizza-service\src\by\bntu\fitr\poisit" />
-      <recent name="E:\STUDY\FITR_2\JAVA\JavaProjects\pizza_lab10\pizza-service\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,6 +413,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.bntu.fitr.poisit.model.collections.strategy.Restaurant" />
+      <module name="pizza_lab10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.bntu.fitr.poisit.model.collections.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -403,35 +450,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantManagerTest.reserve2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestaurantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pizza_lab10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.bntu.fitr.poisit.model.decorator.*" />
+          <option name="PATTERN" value="by.bntu.fitr.poisit.model.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="by.bntu.fitr.poisit.model.collections" />
-      <option name="MAIN_CLASS_NAME" value="by.bntu.fitr.poisit.model.collections.RestaurantManagerTest" />
-      <option name="METHOD_NAME" value="reserve2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestaurantManagerTest.reserve4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pizza_lab10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.bntu.fitr.poisit.model.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by.bntu.fitr.poisit.model.collections" />
-      <option name="MAIN_CLASS_NAME" value="by.bntu.fitr.poisit.model.collections.RestaurantManagerTest" />
-      <option name="METHOD_NAME" value="reserve4" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="by.bntu.fitr.poisit.model.collections.RestaurantTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -456,10 +485,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.RestaurantTest" />
+        <item itemvalue="Application.Restaurant" />
         <item itemvalue="JUnit.RestaurantManagerTest.getFreeTables2" />
         <item itemvalue="Application.PepperoniPizzaCreator" />
-        <item itemvalue="JUnit.RestaurantManagerTest.reserve2" />
-        <item itemvalue="JUnit.RestaurantManagerTest.reserve4" />
       </list>
     </recent_temporary>
   </component>
@@ -516,17 +545,12 @@
       <workItem from="1556811738415" duration="934000" />
       <workItem from="1556966419429" duration="1181000" />
       <workItem from="1556969848353" duration="5306000" />
-      <workItem from="1557001917313" duration="1721000" />
+      <workItem from="1557001917313" duration="4448000" />
+      <workItem from="1557059763950" duration="9908000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestaurantManagerTest_reserve - 2019.04.28 at 13h 37m 23s.xml">
-      <configuration name="RestaurantManagerTest.reserve" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestaurantManagerTest_reserve2 - 2019.04.28 at 13h 37m 59s.xml">
-      <configuration name="RestaurantManagerTest.reserve2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RestaurantManagerTest_reserve3 - 2019.04.28 at 13h 38m 35s.xml">
       <configuration name="RestaurantManagerTest.reserve3" configurationId="JUnit" />
     </history-entry>
@@ -551,9 +575,15 @@
     <history-entry file="RestaurantManagerTest_getFreeTables2 - 2019.04.28 at 23h 23m 51s.xml">
       <configuration name="RestaurantManagerTest.getFreeTables2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RestaurantTest - 2019.05.05 at 18h 21m 52s.xml">
+      <configuration name="RestaurantTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantTest - 2019.05.05 at 18h 36m 59s.xml">
+      <configuration name="RestaurantTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117776000" />
+    <option name="totallyTimeSpent" value="130411000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -568,7 +598,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -576,8 +606,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49436393" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8518519" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -586,7 +616,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.85829306" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.547504" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.85346216" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -620,13 +650,6 @@
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/view/Console.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -733,28 +756,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/util/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../apache-log4j-2.11.2-bin/log4j-1.2-api-2.11.2-sources.jar!/org/apache/log4j/Appender.java" />
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enums/MazzarelloKind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Mazzarello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/labs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -790,114 +792,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Pepperoni.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/Order.java" />
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/CreatableDecorator.java" />
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Agaricus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enums/PepperoniSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enums/AgaricusSize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../testLog/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bntu/fitr/poisit/model/collections/RestaurantManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/controller/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1557002036118" expanded="true" signature="802:1485" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/RestaurantManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding>
-            <element signature="e#2900#2901#0" expanded="true" />
-            <element signature="e#2946#2947#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/log/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -908,13 +808,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/Creatable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -942,6 +835,210 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Agaricus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="33" column="23" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Mazzarello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enums/AgaricusSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enums/MazzarelloKind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="12" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/enums/PepperoniSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/view/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Pepperoni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="29" column="11" selection-end-line="52" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="546" column="20" selection-start-line="546" selection-start-column="20" selection-end-line="546" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/VipTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/util/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/decorator/Creatable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Reservable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Reserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/entity/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/VipReserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bntu/fitr/poisit/model/collections/RestaurantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/strategy/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/model/collections/RestaurantManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/poisit/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1557069405692" expanded="true" signature="908:1644" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
