@@ -12,8 +12,6 @@ import by.bntu.fitr.poisit.model.entity.Pepperoni;
 import by.bntu.fitr.poisit.model.util.Client;
 import by.bntu.fitr.poisit.view.Console;
 import org.apache.log4j.Logger;
-import org.apache.log4j.RollingFileAppender;
-import org.apache.log4j.BasicConfigurator;
 
 public class Main {
     private static final Logger LOG = Logger.getLogger(Main.class);
@@ -32,18 +30,20 @@ public class Main {
             restaurant.reserve(1, 1, client);
             Console.println("Free tables: " + restaurant.getFreeTables());
             Console.println(restaurant);
+
+            for(int i = 0; i < 10; i++){
+                LOG.trace("Send trace message to log");
+                LOG.debug("Send debug message to log");
+                LOG.info("Send info message to log");
+                LOG.warn("Send warn message to log");
+                LOG.error("Send error message to log");
+                LOG.fatal("Send fatal message to log");
+
+            }
+
         } catch (Exception ex){
             ex.printStackTrace();
         }
-
-        BasicConfigurator.configure();
-        LOG.trace("Send trace message to log");
-        LOG.debug("Send debug message to log");
-        LOG.info("Send info message to log");
-        LOG.warn("Send warn message to log");
-        LOG.error("Send error message to log");
-        LOG.fatal("Send fatal message to log");
-
 
     }
 }

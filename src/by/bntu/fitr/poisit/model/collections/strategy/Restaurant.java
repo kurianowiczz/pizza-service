@@ -2,31 +2,23 @@ package by.bntu.fitr.poisit.model.collections.strategy;
 
 import by.bntu.fitr.poisit.model.entity.Table;
 import by.bntu.fitr.poisit.model.util.Client;
+import org.apache.log4j.Logger;
 
 public class Restaurant {
     private static final int DEFAULT_SIZE = 10;
     private static final Reservable DEFAULT_RESERVER = new Reserver();
     private Table[][] tables;
     private Reservable reserver;
+    private static final Logger LOG = Logger.getLogger(Restaurant.class);
 
     public Restaurant() {
-        try {
-            this.tables = new Table[DEFAULT_SIZE][DEFAULT_SIZE];
             for (int i = 0; i < tables.length; i++) {
                 for (int j = 0; j < tables[i].length; j++) {
                     tables[i][j] = new Table();
                 }
             }
-        } catch (Exception ex) {
-            this.tables = new Table[DEFAULT_SIZE][DEFAULT_SIZE];
-            for (int i = 0; i < tables.length; i++) {
-                for (int j = 0; j < tables[i].length; j++) {
-                    tables[i][j] = new Table();
-                }
-            }
-        }
-
-        this.reserver = DEFAULT_RESERVER;
+            this.reserver = DEFAULT_RESERVER;
+            LOG.info("The table is ordered by the client");
     }
 
     public Restaurant(int size, Reservable reserver) {
@@ -44,8 +36,8 @@ public class Restaurant {
                     tables[i][j] = new Table();
                 }
             }
+            LOG.fatal("The value cannot be negative");
         }
-
         this.reserver = reserver;
     }
 
@@ -59,7 +51,7 @@ public class Restaurant {
                 this.reserver.reserve(this.tables[i][j], client);
             }
         } catch (Exception ex){
-
+            LOG.debug("Table cannot have negative indexes");
         }
 
     }
@@ -77,7 +69,6 @@ public class Restaurant {
     }
 
     public void canselReservation(int i, int j){
-        //try
         this.reserver.canselReserve(this.tables[i][j]);
     }
 

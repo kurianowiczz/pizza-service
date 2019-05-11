@@ -16,9 +16,4 @@ public class PepperoniPizzaCreator extends PizzaCreator {
         pizza.add(new Pepperoni());
         return pizza;
     }
-
-//    public static void main(String[] args) {
-//        Pizza pizza = new PepperoniPizzaCreator( new PepperoniPizzaCreator(new PizzaCreator())).create();
-//        System.out.println(pizza);
-//    }
 }

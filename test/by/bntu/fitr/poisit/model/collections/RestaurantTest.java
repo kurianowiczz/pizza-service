@@ -41,7 +41,4 @@ public class RestaurantTest {
         restaurant.reserve(-1, -100, client);
         assertEquals(100, restaurant.getFreeTables());
     }
-
-
-
 }
