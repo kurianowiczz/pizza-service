@@ -19,7 +19,7 @@ public class Restaurant {
                 }
             }
             this.reserver = DEFAULT_RESERVER;
-            LOG.info("The table is ordered by the client");
+            LOG.error("The restaurant cannot be created with a negative number of tables");
     }
 
     public Restaurant(int size, Reservable reserver) {
@@ -37,7 +37,7 @@ public class Restaurant {
                     tables[i][j] = new Table();
                 }
             }
-            LOG.fatal("The value cannot be negative");
+            LOG.error("The value cannot be negative");
         }
         this.reserver = reserver;
     }
@@ -52,7 +52,7 @@ public class Restaurant {
                 this.reserver.reserve(this.tables[i][j], client);
             }
         } catch (Exception ex){
-            LOG.debug("Table cannot have negative indexes");
+            LOG.error("Table cannot have negative indexes");
         }
 
     }
@@ -70,7 +70,13 @@ public class Restaurant {
     }
 
     public void canselReservation(int i, int j){
-        this.reserver.canselReserve(this.tables[i][j]);
+        try{
+            this.reserver.canselReserve(this.tables[i][j]);
+        }
+        catch (Exception ex){
+            LOG.error("Negative indexes");
+        }
+
     }
 
     @Override
