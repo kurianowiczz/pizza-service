@@ -1,5 +1,6 @@
 package by.bntu.fitr.poisit.model.collections.strategy;
 
+import by.bntu.fitr.poisit.controller.Main;
 import by.bntu.fitr.poisit.model.entity.Table;
 import by.bntu.fitr.poisit.model.util.Client;
 import org.apache.log4j.Logger;
