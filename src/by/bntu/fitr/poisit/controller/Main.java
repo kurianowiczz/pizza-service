@@ -11,13 +11,15 @@ import by.bntu.fitr.poisit.model.entity.Mazzarello;
 import by.bntu.fitr.poisit.model.entity.Pepperoni;
 import by.bntu.fitr.poisit.model.util.Client;
 import by.bntu.fitr.poisit.view.Console;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.apache.log4j.Logger;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class Main {
     private static final Logger LOG = Logger.getLogger(Main.class);
+    private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     public static void main(String[] args) {
         try {
@@ -50,6 +52,19 @@ public class Main {
             } catch (IOException ex) {
                 System.out.println(ex.getMessage());
             }
+
+            Restaurant restaurant1 = new Restaurant(5, new Reserver());
+
+            FileOutputStream fos = new FileOutputStream("restaurant.bin");
+            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            oos.writeObject(restaurant1);
+            oos.close();
+
+//            FileInputStream fis = new FileInputStream("restaurant.bin");
+//            ObjectInputStream ois = new ObjectInputStream(fis);
+//            Restaurant restaurant2 = (Restaurant) ois.readObject();
+//
+//            ois.close();
 
         } catch (Exception ex) {
             ex.printStackTrace();

@@ -2,7 +2,9 @@ package by.bntu.fitr.poisit.model.entity;
 
 import by.bntu.fitr.poisit.model.util.Client;
 
-public class Table {
+import java.io.Serializable;
+
+public class Table implements Serializable {
     //private boolean reserve;
     private Client client;
     private int sale;

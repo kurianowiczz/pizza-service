@@ -1,11 +1,12 @@
 package by.bntu.fitr.poisit.model.collections.strategy;
 
-import by.bntu.fitr.poisit.controller.Main;
 import by.bntu.fitr.poisit.model.entity.Table;
 import by.bntu.fitr.poisit.model.util.Client;
 import org.apache.log4j.Logger;
 
-public class Restaurant {
+import java.io.Serializable;
+
+public class Restaurant implements Serializable {
     private static final int DEFAULT_SIZE = 10;
     private static final Reservable DEFAULT_RESERVER = new Reserver();
     private Table[][] tables;
