@@ -16,6 +16,7 @@ import com.google.gson.GsonBuilder;
 import org.apache.log4j.Logger;
 
 import java.io.*;
+import java.util.Scanner;
 
 public class Main {
     private static final Logger LOG = Logger.getLogger(Main.class);
@@ -23,12 +24,24 @@ public class Main {
 
     public static void main(String[] args) {
         try {
+            String clients = "";
+            FileReader fileReader = new FileReader("client.json");
+            Scanner in = new Scanner(fileReader);
+            while (in.hasNext())
+                clients += in.nextLine() + "\r\n";
+            in.close();
+            Console.println(clients);
+
+            Client client;
+            client = GSON.fromJson(clients, Client.class);
+            client.addMoney(500);
+            Console.println(client);
+
             Pizza pizza = new PepperoniPizzaCreator(new PepperoniPizzaCreator(new PizzaCreator())).create();
             pizza.add(new Pepperoni());
             pizza.add(new Agaricus());
             pizza.add(new Mazzarello());
 
-            Client client = new Client(1000);
             Restaurant restaurant = new Restaurant(3, new Reserver());
             restaurant.reserve(0, 0, client);
             restaurant.setReserver(new VipReserver());
@@ -43,7 +56,6 @@ public class Main {
             LOG.error("Send error message to log");
             LOG.fatal("Send fatal message to log");
 
-
             try (FileWriter writer = new FileWriter("pizzaList.txt", true)) {
                 Console.println(pizza);
                 writer.write(pizza.toString());
@@ -55,16 +67,31 @@ public class Main {
 
             Restaurant restaurant1 = new Restaurant(5, new Reserver());
 
-            FileOutputStream fos = new FileOutputStream("restaurant.bin");
+            FileOutputStream fos = new FileOutputStream("restaurant.json");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(restaurant1);
             oos.close();
 
-//            FileInputStream fis = new FileInputStream("restaurant.bin");
-//            ObjectInputStream ois = new ObjectInputStream(fis);
-//            Restaurant restaurant2 = (Restaurant) ois.readObject();
-//
-//            ois.close();
+            // FileInputStream fis = new FileInputStream("restaurant.bin");
+            // ObjectInputStream ois = new ObjectInputStream(fis);
+            // Restaurant restaurant2 = (Restaurant) ois.readObject();
+            //
+            // ois.close();
+
+            // Client client1 = new Client(1000);
+            // String json = GSON.toJson(client1);
+            // Console.println(json);
+            //
+            // Client client2 = GSON.fromJson(json, Client.class);
+            // Console.println(client2.getMoney());
+
+            //Client client1 = GSON.fromJson(clients, Client.class);
+            clients = GSON.toJson(client);
+            FileWriter fileWriter = new FileWriter("client.json", false);
+            fileWriter.write(clients);
+            //fileWriter.append('\n');
+            fileWriter.flush();
+            fileWriter.close();
 
         } catch (Exception ex) {
             ex.printStackTrace();

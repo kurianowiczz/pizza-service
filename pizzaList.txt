@@ -52,3 +52,372 @@ Pizza:
 	Agaricus [size = FRIED, calories = 5, price = 8]
 	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
 
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
+
+
+Pizza:
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Pepperoni [sort = BEEF, calories = 10, price = 5]
+	Agaricus [size = FRIED, calories = 5, price = 8]
+	Mazzarello [kind = DEFAULT, calories = 15, price = 7]
+
