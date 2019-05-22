@@ -5,11 +5,12 @@ import by.bntu.fitr.poisit.model.enums.MazzarelloKind;
 import java.util.Objects;
 
 public class Mazzarello extends Product {
-
+    private static final int MAZZARELLO_CALORIES = 3;
+    private static final int MAZZARELLO_PRICE = 7;
     private MazzarelloKind kind;
 
     public Mazzarello() {
-        super(3, 7);
+        super(MAZZARELLO_CALORIES, MAZZARELLO_PRICE);
         this.kind = MazzarelloKind.DEFAULT;
     }
 
@@ -18,7 +19,12 @@ public class Mazzarello extends Product {
         this.kind = kind;
     }
 
+    public MazzarelloKind getKind() {
+        return kind;
+    }
+
     public void setKind(MazzarelloKind kind) {
+
         this.kind = kind;
     }
 

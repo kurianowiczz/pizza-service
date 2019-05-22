@@ -9,7 +9,8 @@ import by.bntu.fitr.poisit.model.decorator.PizzaCreator;
 import by.bntu.fitr.poisit.model.entity.Agaricus;
 import by.bntu.fitr.poisit.model.entity.Mazzarello;
 import by.bntu.fitr.poisit.model.entity.Pepperoni;
-import by.bntu.fitr.poisit.model.util.Client;
+import by.bntu.fitr.poisit.model.enums.MazzarelloKind;
+import by.bntu.fitr.poisit.model.util.*;
 import by.bntu.fitr.poisit.view.Console;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -20,28 +21,17 @@ import java.util.Scanner;
 
 public class Main {
     private static final Logger LOG = Logger.getLogger(Main.class);
-    private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     public static void main(String[] args) {
         try {
-            String clients = "";
-            FileReader fileReader = new FileReader("client.json");
-            Scanner in = new Scanner(fileReader);
-            while (in.hasNext())
-                clients += in.nextLine() + "\r\n";
-            in.close();
-            Console.println(clients);
-
-            Client client;
-            client = GSON.fromJson(clients, Client.class);
-            client.addMoney(500);
-            Console.println(client);
+            ClientSerrialization cl = new ClientSerrialization("client.json");
+            Client client = cl.read();
 
             Pizza pizza = new PepperoniPizzaCreator(new PepperoniPizzaCreator(new PizzaCreator())).create();
             pizza.add(new Pepperoni());
             pizza.add(new Agaricus());
             pizza.add(new Mazzarello());
-
+            client.addMoney(500);
             Restaurant restaurant = new Restaurant(3, new Reserver());
             restaurant.reserve(0, 0, client);
             restaurant.setReserver(new VipReserver());
@@ -56,44 +46,21 @@ public class Main {
             LOG.error("Send error message to log");
             LOG.fatal("Send fatal message to log");
 
-            try (FileWriter writer = new FileWriter("pizzaList.txt", true)) {
-                Console.println(pizza);
-                writer.write(pizza.toString());
-                writer.append('\n');
-                writer.flush();
-            } catch (IOException ex) {
-                System.out.println(ex.getMessage());
-            }
+            String pizzaListFile = "pizzaList.txt";
+            PizzaListFile.writePizza(pizzaListFile, pizza);
+            Console.println(pizza);
 
-            Restaurant restaurant1 = new Restaurant(5, new Reserver());
+            String mazzarelloFile = "mazzarello.bin";
+            Mazzarello mazzarello = new Mazzarello(3, 7, MazzarelloKind.DEFAULT);
+            Console.println("Before " + mazzarello);
+            MazzarelloFile.write(mazzarelloFile, mazzarello);
+            Mazzarello mazzarello1 = MazzarelloFile.read(mazzarelloFile);
+            Console.println("After " + mazzarello1);
 
-            FileOutputStream fos = new FileOutputStream("restaurant.json");
-            ObjectOutputStream oos = new ObjectOutputStream(fos);
-            oos.writeObject(restaurant1);
-            oos.close();
+            cl.save(client);
+            Console.println(client);
 
-            // FileInputStream fis = new FileInputStream("restaurant.bin");
-            // ObjectInputStream ois = new ObjectInputStream(fis);
-            // Restaurant restaurant2 = (Restaurant) ois.readObject();
-            //
-            // ois.close();
-
-            // Client client1 = new Client(1000);
-            // String json = GSON.toJson(client1);
-            // Console.println(json);
-            //
-            // Client client2 = GSON.fromJson(json, Client.class);
-            // Console.println(client2.getMoney());
-
-            //Client client1 = GSON.fromJson(clients, Client.class);
-            clients = GSON.toJson(client);
-            FileWriter fileWriter = new FileWriter("client.json", false);
-            fileWriter.write(clients);
-            //fileWriter.append('\n');
-            fileWriter.flush();
-            fileWriter.close();
-
-        } catch (Exception ex) {
+        } catch (NullPointerException ex) {
             ex.printStackTrace();
         }
 

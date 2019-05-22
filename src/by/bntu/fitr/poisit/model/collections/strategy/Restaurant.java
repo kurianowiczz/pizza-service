@@ -9,11 +9,15 @@ import java.io.Serializable;
 public class Restaurant implements Serializable {
     private static final int DEFAULT_SIZE = 10;
     private static final Reservable DEFAULT_RESERVER = new Reserver();
-    private Table[][] tables;
-    private Reservable reserver;
     private static final Logger LOG = Logger.getLogger(Restaurant.class);
 
+    private Table[][] tables;
+    private Reservable reserver;
+
+
     public Restaurant() {
+            //try{
+
             for (int i = 0; i < tables.length; i++) {
                 for (int j = 0; j < tables[i].length; j++) {
                     tables[i][j] = new Table();

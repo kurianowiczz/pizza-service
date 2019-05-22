@@ -5,11 +5,12 @@ import by.bntu.fitr.poisit.model.enums.AgaricusSize;
 import java.util.Objects;
 
 public class Agaricus extends Product {
-
+    private static final int AGARICUS_CALORIES = 1;
+    private static final int AGARICUS_PRICE = 8;
     private AgaricusSize size;
 
     public Agaricus() {
-        super(1, 8);
+        super(AGARICUS_CALORIES, AGARICUS_PRICE);
         this.size = AgaricusSize.FRIED;
     }
 

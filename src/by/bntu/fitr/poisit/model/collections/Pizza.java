@@ -32,6 +32,10 @@ public class Pizza {
         return elements;
     }
 
+    public void setElements(List<Product> elements) {
+        this.elements = elements;
+    }
+
     public Pizza(Product... listOfProducts) {
         this.elements = new ArrayList<>();
         this.elements.addAll(Arrays.asList(listOfProducts)); //mas -> arrL

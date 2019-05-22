@@ -5,11 +5,12 @@ import by.bntu.fitr.poisit.model.enums.PepperoniSort;
 import java.util.Objects;
 
 public class Pepperoni extends Product {
-
+    private static final int PEPPERONI_CALORIES = 2;
+    private static final int PEPPERONI_PRICE = 5;
     private PepperoniSort sort;
 
     public Pepperoni() {
-        super(2, 5);
+        super(PEPPERONI_CALORIES, PEPPERONI_PRICE);
         this.sort = PepperoniSort.BEEF;
     }
 
